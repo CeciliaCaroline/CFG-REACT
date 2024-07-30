@@ -1,8 +1,14 @@
 .button-click {
-    border-color: red;
-    border-radius: 5px;
+    border-color: black;
     font-size: 25px;
     padding: 20px;
     font-weight: 600;
-    background-color: rgb(19, 136, 214);
+    background-color: #61dafb;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+.error {
+    background-color: red;
 }

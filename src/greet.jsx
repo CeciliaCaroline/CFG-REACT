@@ -1,13 +1,12 @@
 import React from 'react';
 
-function Greet() {
-    const name = 'Cecilia'
+const Greet = (props) => {
+    const name = 'Cecilia';
+    console.log(props, "Greet Props")
     return (
         <>
             {name ? <p>Hello {name}</p> : <p>Hello World</p>}
-            {/* if name render hello name else render hello world */}
-
-
+            <p>Welcome to your first React App</p>
         </>
 
     )
